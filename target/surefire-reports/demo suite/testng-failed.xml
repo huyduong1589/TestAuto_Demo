@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [demo suite]" parallel="methods" data-provider-thread-count="1">
+  <test thread-count="1" verbose="0" name="demo suite(failed)" parallel="methods">
+    <parameter name="category2" value="SORT"/>
+    <parameter name="category3" value="DETAILS"/>
+    <parameter name="filterInsurer" value="Pacific Cross"/>
+    <parameter name="endDate" value="30"/>
+    <parameter name="category1" value="FILTER"/>
+    <parameter name="destination" value="Thailand"/>
+    <parameter name="minNumberCards" value="3"/>
+    <parameter name="waitTime" value="20"/>
+    <parameter name="url" value="https://www.gobear.com/ph?x_session_type=UAT"/>
+    <parameter name="startDate" value="25"/>
+    <classes>
+      <class name="po.testcases.GobearAssignment">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="TC006_VerifyDateFilter" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- po.testcases.GobearAssignment -->
+    </classes>
+  </test> <!-- demo suite(failed) -->
+</suite> <!-- Failed suite [demo suite] -->

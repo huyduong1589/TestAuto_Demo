@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="demo suite" duration-ms="115863" started-at="2020-04-20T07:19:28Z" finished-at="2020-04-20T07:21:24Z">
+    <groups>
+    </groups>
+    <test name="demo suite" duration-ms="115863" started-at="2020-04-20T07:19:28Z" finished-at="2020-04-20T07:21:24Z">
+      <class name="po.testcases.GobearAssignment">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="setup" is-config="true" duration-ms="5986" started-at="2020-04-20T07:19:28Z" finished-at="2020-04-20T07:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.gobear.com/ph?x_session_type=UAT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC001_VerifyMinCardNumberAndCategory(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="TC001_VerifyMinCardNumberAndCategory" duration-ms="6092" started-at="2020-04-20T07:19:34Z" finished-at="2020-04-20T07:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FILTER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SORT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DETAILS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_VerifyMinCardNumberAndCategory -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="cleanUp" is-config="true" duration-ms="941" started-at="2020-04-20T07:19:40Z" finished-at="2020-04-20T07:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="setup" is-config="true" duration-ms="4908" started-at="2020-04-20T07:19:41Z" finished-at="2020-04-20T07:19:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.gobear.com/ph?x_session_type=UAT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC002_VerifyInsurerFilter(java.lang.String)[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="TC002_VerifyInsurerFilter" duration-ms="7579" started-at="2020-04-20T07:19:46Z" finished-at="2020-04-20T07:19:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pacific Cross]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_VerifyInsurerFilter -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="cleanUp" is-config="true" duration-ms="653" started-at="2020-04-20T07:19:54Z" finished-at="2020-04-20T07:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="setup" is-config="true" duration-ms="4867" started-at="2020-04-20T07:19:54Z" finished-at="2020-04-20T07:19:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.gobear.com/ph?x_session_type=UAT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC003_VerifySortPriceHighToLow()[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="TC003_VerifySortPriceHighToLow" duration-ms="8149" started-at="2020-04-20T07:19:59Z" finished-at="2020-04-20T07:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_VerifySortPriceHighToLow -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="cleanUp" is-config="true" duration-ms="658" started-at="2020-04-20T07:20:07Z" finished-at="2020-04-20T07:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="setup" is-config="true" duration-ms="4919" started-at="2020-04-20T07:20:08Z" finished-at="2020-04-20T07:20:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.gobear.com/ph?x_session_type=UAT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC004_VerifyRangeOption()[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="TC004_VerifyRangeOption" duration-ms="20651" started-at="2020-04-20T07:20:13Z" finished-at="2020-04-20T07:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_VerifyRangeOption -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="cleanUp" is-config="true" duration-ms="654" started-at="2020-04-20T07:20:33Z" finished-at="2020-04-20T07:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="setup" is-config="true" duration-ms="4754" started-at="2020-04-20T07:20:34Z" finished-at="2020-04-20T07:20:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.gobear.com/ph?x_session_type=UAT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC005_VerifyDestinationFilter(java.lang.String)[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="TC005_VerifyDestinationFilter" duration-ms="10918" started-at="2020-04-20T07:20:39Z" finished-at="2020-04-20T07:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thailand]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_VerifyDestinationFilter -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="cleanUp" is-config="true" duration-ms="654" started-at="2020-04-20T07:20:50Z" finished-at="2020-04-20T07:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="setup" is-config="true" duration-ms="7195" started-at="2020-04-20T07:20:50Z" finished-at="2020-04-20T07:20:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.gobear.com/ph?x_session_type=UAT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC006_VerifyDateFilter(java.lang.String, java.lang.String)[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="TC006_VerifyDateFilter" duration-ms="25590" started-at="2020-04-20T07:20:58Z" finished-at="2020-04-20T07:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC006_VerifyDateFilter -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:po.testcases.GobearAssignment@671a5887]" name="cleanUp" is-config="true" duration-ms="657" started-at="2020-04-20T07:21:23Z" finished-at="2020-04-20T07:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- po.testcases.GobearAssignment -->
+    </test> <!-- demo suite -->
+  </suite> <!-- demo suite -->
+</testng-results>

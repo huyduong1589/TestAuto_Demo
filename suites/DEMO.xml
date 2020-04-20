@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="demo suite" parallel="methods" thread-count="1" data-provider-thread-count="1">
+	<listeners>
+	</listeners>
+	<test name="demo suite">
+		<parameter name="waitTime" value="20"/>
+		<parameter name="url" value="https://www.gobear.com/ph?x_session_type=UAT"/>
+		<parameter name="minNumberCards" value="3"/>
+		<parameter name="category1" value="FILTER"/>
+		<parameter name="category2" value="SORT"/>
+		<parameter name="category3" value="DETAILS"/>
+		<parameter name="filterInsurer" value="Pacific Cross"/>
+		<parameter name="destination" value="Thailand"/>
+		<parameter name="startDate" value="25"/>
+		<parameter name="endDate" value="30"/>
+		<classes>
+			<class name= "po.testcases.GobearAssignment"></class>
+		</classes>
+	</test>
+</suite>
