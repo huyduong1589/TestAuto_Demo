@@ -97,8 +97,8 @@ public class GobearAssignment {
 		gobearHomePage.clickOnInsurance();
 		gobearHomePage.clickOnTravelSecion();
 		gobearHomePage.clickOnShowMyResult();
-		gobearTravelPage.selectEndDate(endDate, "Aug", "2021");
 		gobearTravelPage.selectStartDate(startDate, "Aug", "2021");
+		gobearTravelPage.selectEndDate(endDate, "Aug", "2021");
 		Assert.assertTrue(gobearTravelPage.verifyTopSideMessageShouldInclude("from " + startDate));
 		Assert.assertTrue(gobearTravelPage.verifyTopSideMessageShouldInclude("to " + endDate));
 	}
