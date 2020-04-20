@@ -38,7 +38,7 @@ public class GobearTravelPage {
 	}
 	
 	public void selectStartDate(String date, String month, String year) throws Exception {
-		//webSupport.waitForElement(GobearSelector.Insurance_Card);
+		webSupport.waitForElement(GobearSelector.Insurance_Card);
 		String dateXpath = GobearSelector.Date_To_Select.replace("<Date>", date);
 		String monthXpath = GobearSelector.Month_To_Select.replace("<Month>", month);
 		String yearXpath = GobearSelector.Year_To_Select.replace("<Year>", year);
@@ -57,7 +57,6 @@ public class GobearTravelPage {
 	}
 	
 	public void selectEndDate(String date, String month, String year) throws Exception {
-		webSupport.waitForElement(GobearSelector.Insurance_Card);
 		String dateXpath = GobearSelector.Date_To_Select.replace("<Date>", date);
 		String monthXpath = GobearSelector.Month_To_Select.replace("<Month>", month);
 		String yearXpath = GobearSelector.Year_To_Select.replace("<Year>", year);
