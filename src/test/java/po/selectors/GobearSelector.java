@@ -22,11 +22,11 @@ public class GobearSelector {
 	public static String Destination_To_Select = "//label[contains(text(),'DESTINATION')]/following::span[text()='<Destination>'][1]";
 	public static String Date_From_Option = "//label[contains(text(),'TRAVEL START DATE')]/following::div[@class='date-from'][1]";
 	public static String Date_To_Option = "//label[contains(text(),'TRAVEL END DATE')]/following::div[@class='date-to'][1]";
-	public static String Date_To_Select = "//div[@class='datepicker-days']//td[text()='<Date>']";
+	public static String Date_To_Select = "//div[@class='datepicker-days']//td[@class='day'][text()='<Date>']";
 	public static String Date_Picker_Days_Switch = "//div[@class='datepicker-days']//th[@class='datepicker-switch']";
 	public static String Date_Picker_Months_Switch = "//div[@class='datepicker-months']//th[@class='datepicker-switch']";
 	public static String Month_To_Select = "//span[contains(@class,'month')][text()='<Month>']";
-	public static String Year_To_Select = "//span[@class='year'][text()='<Year>']";
+	public static String Year_To_Select = "//span[contains(@class,'year')][text()='<Year>']";
 	//Top Side Bar
 	public static String Top_Side_Message = "//div[@data-gb-name='travel-nav-data']//small";
 }
